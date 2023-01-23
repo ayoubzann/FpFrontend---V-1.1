@@ -49,3 +49,17 @@
   .nav li:hover {
     background-color: #777;
   }
+
+  .album-table{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .album-image{
+  width: 10rem;
+  height: 10rem;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
