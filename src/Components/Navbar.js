@@ -11,6 +11,9 @@ export default function Navbar() {
         <CustomLink to="/videos"> Videos </CustomLink>
         <CustomLink to="/login"> Login </CustomLink>
         <CustomLink to="../admin"> Admin </CustomLink>
+        <CustomLink to="../admintrack"> Admin Tracks </CustomLink>
+        <CustomLink to="../adminartist"> Admin Artist </CustomLink>
+        <CustomLink to="../adminCRUD"> Admin CRUD </CustomLink>
     </ul>
   </nav>
   )

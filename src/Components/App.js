@@ -5,9 +5,12 @@ import Videos from "../Pages/videos";
 import Discography from "../Pages/discography";
 import Login from "../Pages/login";
 import Admin from "../AdminPages/admin";
+import AdminTracks from "../AdminPages/admintrack";
+import AdminArtist from "../AdminPages/adminartist";
 import { Route, Routes } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+import AdminCRUD from "../AdminPages/adminCRUD";
 
 
 const App = () => {
@@ -33,6 +36,9 @@ const App = () => {
           <Route path="/videos" element={ <Videos />} />
           <Route path="/login" element={<Login />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/admintrack" element={<AdminTracks />} />
+          <Route path="/adminartist" element={<AdminArtist />} />
+          <Route path="/adminCRUD" element={<AdminCRUD />} />
 
         </Routes>
       </div>
