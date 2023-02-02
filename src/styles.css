@@ -68,3 +68,57 @@
   margin:auto;
   display:block;
 }
+
+
+.container {
+  width: 55%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #00bfa5;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #00bfa5;
+  color: #fff;
+  font-size: 24px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: 1px solid #ddd;
+}
+
+button[type="submit"], button[type="button"] {
+  background-color: #00bfa5;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}

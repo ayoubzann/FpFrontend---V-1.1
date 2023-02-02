@@ -18,8 +18,7 @@ export default function Discography() {
 
 
     
-    return (
-        <>
+    return ( <div>
         <h1>Discography</h1>
         <h2>Albums & Mixtapes</h2>
         <table className="album-table">
@@ -38,6 +37,6 @@ export default function Discography() {
         ))}
     </tbody>
 </table>
-        </>
+        </div>
     )
 }

@@ -95,6 +95,7 @@ function AdminCRUD() {
         <tr key={album.id}>
         <td>{album.title}</td>
         <td>{album.releaseDate}</td>
+        <td><img href={album.photoUrl}/> </td>
         </tr>
         ))}
         </tbody>

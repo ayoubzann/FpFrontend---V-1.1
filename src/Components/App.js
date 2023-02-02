@@ -11,7 +11,10 @@ import { Route, Routes } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import AdminCRUD from "../AdminPages/adminCRUD";
-
+import Update from "./CRUD/Update/update";
+import Delete from "./CRUD/Delete/delete";
+import Create from "./CRUD/Create/Create";
+import Read from "./CRUD/Read/Read";
 
 const App = () => {
 
@@ -26,6 +29,8 @@ const App = () => {
   }, []); // Pass an empty array to only run the effect on mount
 
 
+  
+
   return (
     <>
       <Navbar />
@@ -39,7 +44,10 @@ const App = () => {
           <Route path="/admintrack" element={<AdminTracks />} />
           <Route path="/adminartist" element={<AdminArtist />} />
           <Route path="/adminCRUD" element={<AdminCRUD />} />
-
+          <Route path="/update" exact element={<Update/>} />
+          <Route path="/create" exact element={<Create/>} />
+          <Route path="/read" exact element={<Read/>} />
+                          
         </Routes>
       </div>
 
