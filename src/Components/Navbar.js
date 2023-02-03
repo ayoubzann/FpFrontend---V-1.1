@@ -3,6 +3,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 export default function Navbar() {
   return (
+    
   <nav className="nav">
     <Link to="/" className="site-title">OVO Club</Link>
     <ul>
@@ -10,11 +11,9 @@ export default function Navbar() {
         <CustomLink to="/discography"> Discography </CustomLink>
         <CustomLink to="/videos"> Videos </CustomLink>
         <CustomLink to="/login"> Login </CustomLink>
-        <CustomLink to="../admin"> Admin </CustomLink>
-        <CustomLink to="../admintrack"> Admin Tracks </CustomLink>
-        <CustomLink to="../adminartist"> Admin Artist </CustomLink>
-        <CustomLink to="../adminCRUD"> Admin CRUD </CustomLink>
+        <CustomLink to="/adminpanel"> CRUD Panel </CustomLink>
     </ul>
+    <input id="searchbar" placeholder="Search"></input>
   </nav>
   )
 }
