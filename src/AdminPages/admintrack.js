@@ -8,8 +8,15 @@ function AdminTracks() {
 
   return (
   <div>
-      <Create/>
-      <Read/>
+
+    <div>
+       <Create/>
+    </div>
+    
+    <div>
+       <Read/>
+    </div>
+      
     </div>
 
   );
